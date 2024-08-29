@@ -21,7 +21,7 @@ function CardComponent(prop) {
           Region: {region}
         </Card.Text>
         <Card.Text className="card-text">Population :{population}</Card.Text>
-        <Button variant="primary" onClick={()=>{Handler(id)}} className='card-button' >Go somewhere</Button>
+        <Button variant="primary" onClick={()=>{Handler(id)}} className='card-button' >Know More</Button>
       </Card.Body>
     </Card>
   );
