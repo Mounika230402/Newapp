@@ -1,17 +1,22 @@
-.Currency_Main_Div{
-
+.Currency_Main_Div {
+    background-image: url('./background3.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Adjust based on your design */
+    width: 100%;
     display: flex;
     flex-direction: column;
-    gap:0vw;
+    justify-content: center;
+    /* align-items: center; */
 }
-.Currency_Div{
+/* .Currency_Div{
     background-image: url('./background3.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     border: 1px solid ;
     height:43vw;
-}
+} */
 .currency-converter {
     max-width: 450px;
    

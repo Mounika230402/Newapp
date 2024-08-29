@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
-function NavBar(prop) {
+function NavBar({customStyle}) {
   const linkStyle = {
     textDecoration: "none",
     margin: 10,
@@ -14,7 +14,7 @@ function NavBar(prop) {
   
 
   return (
-    <Navbar bg="primary" data-bs-theme="dark" className="Navbar">
+    <Navbar bg="primary" data-bs-theme="dark" className="Navbar" style={customStyle}>
     <Container>
       <Navbar.Brand><Link to={"/Country"} style={linkStyle}>Navbar</Link></Navbar.Brand>
       <Nav className="me-auto">

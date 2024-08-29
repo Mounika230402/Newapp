@@ -66,7 +66,7 @@ const CurrencyConverter = (props) => {
 
     return (
        <div className="Currency_Main_Div">
-        <NavBar/>
+        <NavBar customStyle={{marginTop:"-14px"}}/>
          <div className="Currency_Div">
             <form className="currency-converter">
                 <label>From</label>
