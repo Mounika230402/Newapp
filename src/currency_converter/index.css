@@ -1,0 +1,48 @@
+.Currency_Main_Div{
+
+    display: flex;
+    flex-direction: column;
+    gap:0vw;
+}
+.Currency_Div{
+    background-image: url('./background3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid ;
+    height:43vw;
+}
+.currency-converter {
+    max-width: 450px;
+   
+    margin: 10vw auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: transparent
+}
+
+.currency-converter form {
+    display: flex;
+    flex-direction: column;
+}
+
+.currency-converter label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+    font-size: larger;
+    color:white;
+}
+
+.currency-converter .form-select,
+.currency-converter .form-control {
+    margin-bottom: 15px;
+}
+
+.currency-converter h4 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+    color:white;
+
+}

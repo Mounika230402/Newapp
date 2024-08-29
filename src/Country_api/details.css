@@ -1,0 +1,48 @@
+.dataRow{
+    text-align: left;
+}
+
+.dataRow h4{
+    margin: 0;
+    font-size: 20px;
+}
+
+.dataRow span{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 15px;
+    max-width: 300px;
+}
+.Details{
+    border: 1px solid black;
+    max-width: max-content;
+    padding:20px;
+}
+.Details h2{
+    text-align: center;
+}
+/* .flagImage{
+    width:20vw;
+    height:20vh;
+    margin-left: 6vw;
+} */
+.detailsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.Table{
+     border:1px solid transparent
+}
+.colon{
+    text-align: center;
+}
+.round img{
+    width:20vw;
+    height:180px;
+    border-radius: 5%;
+    margin-left: 6vw;
+    object-fit: cover;
+}
